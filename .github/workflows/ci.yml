@@ -100,7 +100,7 @@ jobs:
 
         with:
 
-          credentials_json: '${{ secrets.GCLOUD_SA }}''
+          credentials_json: '${{ secrets.GCLOUD_SA }}'
 
 
       - id: 'get-credentials'
